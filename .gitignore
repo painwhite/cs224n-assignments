@@ -46,3 +46,19 @@ runs/
 
 # ===== 嵌套仓库（走独立仓库 cs224n-dfp）=====
 Final Project/
+
+# ===== 密钥与凭据安全网（绝不允许进入仓库）=====
+*密钥*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+.env
+.env.*
+*secret*
+*credential*
+*password*
