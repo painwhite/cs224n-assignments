@@ -1,0 +1,48 @@
+# ===== 系统垃圾 =====
+.DS_Store
+__MACOSX/
+Thumbs.db
+.idea/
+.vscode/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 官方压缩包与讲义（可重新下载）=====
+*.zip
+slides/
+
+# ===== 大体积官方数据（恢复方法见 README.md）=====
+assignment2/a2/student/data/
+assignment3/a3_spr24_student_code/student/zh_en_data/
+
+# ===== 训练产物 =====
+model.bin
+outputs/
+runs/
+*.pt
+*.ckpt
+*.safetensors
+
+# ===== LaTeX 中间产物 =====
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.bbl
+*.blg
+*.toc
+
+# ===== 嵌套仓库（走独立仓库 cs224n-dfp）=====
+Final Project/
